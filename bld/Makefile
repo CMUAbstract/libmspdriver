@@ -10,4 +10,6 @@ OBJECTS = pmm.o sfr.o framctl_a.o rtc_b.o sysctl.o \
 override SRC_ROOT = ../../src
 
 override CFLAGS += \
-	-I../../src/include
+	-I../../src/include \
+	-I../../src/include/$(LIB)
+
