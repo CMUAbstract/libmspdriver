@@ -13,3 +13,5 @@ override CFLAGS += \
 	-I../../src/include \
 	-I../../src/include/$(LIB)
 
+include $(MAKER_ROOT)/Makefile.$(TOOLCHAIN)
+
